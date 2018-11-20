@@ -1,13 +1,5 @@
-#
-# Be sure to run `pod lib lint RTRootNavigationController.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = 'RTRootNavigationController'
+  s.name             = 'RTRootNavigationController_WeexBox'
   s.version          = '0.7.0'
   s.summary          = 'Transparently make every view controller has its own navigation bar'
   s.description      = <<-DESC
@@ -17,11 +9,11 @@ This project just help develops to solve this problem in a tricky way, develops 
 you can have each view controller a individual navigation bar.
                        DESC
 
-  s.homepage         = 'https://github.com/rickytan/RTRootNavigationController'
-  s.screenshots      = 'https://raw.githubusercontent.com/rickytan/RTRootNavigationController/master/ScreenShot/1.png', 'https://raw.githubusercontent.com/rickytan/RTRootNavigationController/master/ScreenShot/2.gif'
+  s.homepage         = 'https://github.com/aygtech/RTRootNavigationController_WeexBox'
+  s.screenshots      = 'https://raw.githubusercontent.com/aygtech/RTRootNavigationController_WeexBox/master/ScreenShot/1.png', 'https://raw.githubusercontent.com/rickytan/RTRootNavigationController/master/ScreenShot/2.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'rickytan' => 'ricky.tan.xin@gmail.com' }
-  s.source           = { :git => 'https://github.com/rickytan/RTRootNavigationController.git', :tag => s.version.to_s }
+  s.author           = { 'Mario' => 'myeveryheart@qq.com' }
+  s.source           = { :git => 'https://github.com/aygtech/RTRootNavigationController_WeexBox.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '7.0'
