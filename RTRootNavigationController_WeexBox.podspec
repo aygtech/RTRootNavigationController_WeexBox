@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RTRootNavigationController_WeexBox'
-  s.version          = '0.7.0'
+  s.version          = '0.7.1'
   s.summary          = 'Transparently make every view controller has its own navigation bar'
   s.description      = <<-DESC
 More and more apps use custom navigation bar for each different view controller, instead of one common, gloabal navigation bar.
